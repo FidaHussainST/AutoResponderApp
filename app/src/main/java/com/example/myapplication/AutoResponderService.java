@@ -34,7 +34,7 @@ import java.util.regex.Pattern;
 
 public class AutoResponderService extends AccessibilityService {
 
-    private static final String TAG = "AutoResponderService";
+    private static final String TAG = "AutoResponderServices";
     private static final String TARGET_TEXT = "Price: RM"; // Target message text
     private static final double MINIMUM_PRICE = 85.0; // Minimum price to trigger reply
     private Set<Double> respondedPrices = new HashSet<>(); // Track responded prices
