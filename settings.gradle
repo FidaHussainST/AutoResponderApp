@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        google()
+        mavenCentral()   // Make sure this is included
+        jcenter()        // Optional but can help with older libraries
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()   // Make sure this is included
+        jcenter()        // Optional but can help with older libraries
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+rootProject.name = "My Application"
+include ':app'
