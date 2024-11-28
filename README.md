@@ -1,7 +1,7 @@
 
 # **Auto Responder App**
 
-![Project Banner](https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e)  
+![Project Banner](https://profile-summary-for-github.com/user/FidaHussainST)  
 *An Android application for logging, monitoring, and managing automated typing notifications and logs.*
 
 ---
